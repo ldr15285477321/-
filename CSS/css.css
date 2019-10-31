@@ -1,0 +1,158 @@
+*{
+    margin: 0%;
+}
+/* .compter{
+    width: 100%;
+    height: 80px;
+    background: red;
+}
+.phone{
+    width: 100%;
+    height: 80px;
+    display: none;
+    background: orchid;
+}
+.l-compter{
+    width: 100%;
+    height: 80px;
+    display: none;
+    background: rgb(8, 36, 192);
+} */
+@media screen and (max-width:773px){
+    .phone{
+        width: 100%;
+        height: 80px;
+        background: orchid;
+        display: block;
+        box-sizing: border-box;
+        padding: 18px;
+        position: fixed;
+    }
+    @font-face {
+        font-family: 'iconfont';  /* project id 1478135 */
+        src: url('//at.alicdn.com/t/font_1478135_51j58h5xm8s.eot');
+        src: url('//at.alicdn.com/t/font_1478135_51j58h5xm8s.eot?#iefix') format('embedded-opentype'),
+        url('//at.alicdn.com/t/font_1478135_51j58h5xm8s.woff2') format('woff2'),
+        url('//at.alicdn.com/t/font_1478135_51j58h5xm8s.woff') format('woff'),
+        url('//at.alicdn.com/t/font_1478135_51j58h5xm8s.ttf') format('truetype'),
+        url('//at.alicdn.com/t/font_1478135_51j58h5xm8s.svg#iconfont') format('svg');
+    } 
+    .iconfont{
+        font-family:"iconfont" !important;
+        font-size:36px;font-style:normal;
+        -webkit-font-smoothing: antialiased;
+        -webkit-text-stroke-width: 0.2px;
+        -moz-osx-font-smoothing: grayscale;
+        color: white;
+    }  
+    .iconfonts{
+        font-family:"iconfont" !important;
+        font-size:36px;font-style:normal;
+        -webkit-font-smoothing: antialiased;
+        -webkit-text-stroke-width: 0.2px;
+        -moz-osx-font-smoothing: grayscale;
+        color: white;
+        float: right;
+    }  
+    .compter{
+        display: none;
+    }
+    .l-compter{
+        display: none;
+    }
+
+
+}
+@media screen and (min-width:1119px){
+    .l-compter{
+        display: none;
+    }
+    .phone{
+        display: none;
+    }
+    .compter{
+        width: 100%;
+        height: 80px;
+        background: rgb(40, 107, 231);
+        display: block;
+        box-sizing: border-box;
+        padding: 20px;
+        opacity: .95;
+        position: fixed;
+    }
+    @font-face {
+        font-family: 'iconfont';  /* project id 1478135 */
+        src: url('//at.alicdn.com/t/font_1478135_51j58h5xm8s.eot');
+        src: url('//at.alicdn.com/t/font_1478135_51j58h5xm8s.eot?#iefix') format('embedded-opentype'),
+        url('//at.alicdn.com/t/font_1478135_51j58h5xm8s.woff2') format('woff2'),
+        url('//at.alicdn.com/t/font_1478135_51j58h5xm8s.woff') format('woff'),
+        url('//at.alicdn.com/t/font_1478135_51j58h5xm8s.ttf') format('truetype'),
+        url('//at.alicdn.com/t/font_1478135_51j58h5xm8s.svg#iconfont') format('svg');
+    } 
+    .iconfont{
+        font-family:"iconfont" !important;
+        font-size:36px;font-style:normal;
+        -webkit-font-smoothing: antialiased;
+        -webkit-text-stroke-width: 0.2px;
+        -moz-osx-font-smoothing: grayscale;
+        color: white;
+    }     
+    .compter>ul{
+        font-size: 36px;
+        float: right;
+        list-style: none;
+        color: white;
+    }
+    li{
+        float: left;
+        margin-left: 20px;
+        width: 150px;
+    }
+
+      
+}
+@media screen and (min-width:773px) and (max-width:1119px){
+    .phone{
+        display: none;
+    }
+    .compter{
+        display: none;
+    }
+    .l-compter{
+        width: 100%;
+        height: 80px;
+        background: red;
+        display: block;
+        box-sizing: border-box;
+        padding: 15px 15px 15px 20px;
+        position: fixed;
+    }
+    @font-face {
+        font-family: 'iconfont';  /* project id 1478135 */
+        src: url('//at.alicdn.com/t/font_1478135_51j58h5xm8s.eot');
+        src: url('//at.alicdn.com/t/font_1478135_51j58h5xm8s.eot?#iefix') format('embedded-opentype'),
+        url('//at.alicdn.com/t/font_1478135_51j58h5xm8s.woff2') format('woff2'),
+        url('//at.alicdn.com/t/font_1478135_51j58h5xm8s.woff') format('woff'),
+        url('//at.alicdn.com/t/font_1478135_51j58h5xm8s.ttf') format('truetype'),
+        url('//at.alicdn.com/t/font_1478135_51j58h5xm8s.svg#iconfont') format('svg');
+    } 
+    .iconfont{
+        font-family:"iconfont" !important;
+        font-size:36px;font-style:normal;
+        -webkit-font-smoothing: antialiased;
+        -webkit-text-stroke-width: 0.2px;
+        -moz-osx-font-smoothing: grayscale;
+        color: white;
+    } 
+    .l-compter>ul{
+        font-size: 36px;
+        float: right;
+        list-style: none;
+        color: white;
+    }
+    li{
+        float: left;
+        margin-left: 20px;
+        width: 150px;
+    }
+}
